@@ -1,11 +1,33 @@
-# Instrucciones
+Diabetes Control App
+Descripción
+Aplicación para controlar los niveles de glucosa y crear recordatorios para pacientes diabéticos.
 
-Puedes previsualizar directamente en tu teléfono o tableta escaneando el **código QR** o utilizar los emuladores de iOS o Android. Cuando hayas terminado, haz clic en **Guardar** y comparte el enlace.
+Instalación
+Prerrequisitos
+Node.js
+Expo CLI
+Pasos para Instalar
+Instalar Node.js
 
-Cuando estés listo para ver todo lo que ofrece Expo (o si quieres usar tu propio editor) puedes **Descargar** tu proyecto y usarlo con [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Descarga e instala Node.js desde nodejs.org.
+Instalar Expo CLI
 
-Todos los proyectos creados en Snack están disponibles públicamente, por lo que puedes compartir fácilmente el enlace a este proyecto a través de un enlace, o incrustarlo en una página web con el botón `<>`.
+npm install -g expo-cli
 
-Si tienes problemas, puedes tuitearnos [@expo](https://twitter.com/expo) o preguntar en nuestros [foros](https://forums.expo.dev/c/expo-dev-tools/61) o [Discord](https://chat.expo.dev/).
+ npm install @react-native-paper
+ npm install @react-native-async-storage/async-storage
+ npm install react-native-crypto-js
+ npm install @react-navigation/native
+ npm install @react-navigation/stack
+ npm install react-native-safe-area-context
+ npm install @react-native-community/masked-view
+ npm install react-native-gesture-handler
+ npm install react-native-screens
+ npm install react-native-reanimated
+ npm install expo
+expo start
 
-Snack es de código abierto. Puedes encontrar el código en [GitHub repo](https://github.com/expo/snack).
+Instrucciones Dispositivo o Emulador
+En un Dispositivo Físico: Escanea el código QR con la aplicación Expo Go. En un Emulador: Selecciona "Run on Android device/emulator" o "Run on iOS simulator" desde el Dashboard de Expo.
+
+Giobanny Garces 2024 - NRC: 45-55296, Computación Móvil
