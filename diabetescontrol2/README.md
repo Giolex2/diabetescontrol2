@@ -5,14 +5,14 @@ Aplicación para controlar los niveles de glucosa y crear recordatorios para pac
 Instalación
 Prerrequisitos
 Node.js
-Expo CLI
+Expo 
 Pasos para Instalar
 Instalar Node.js
 
 Descarga e instala Node.js desde nodejs.org.
 Instalar Expo CLI
 
-npm install -g expo-cli
+npm i -g expo-cli
 
  npm install @react-native-paper
  npm install @react-native-async-storage/async-storage
@@ -25,7 +25,8 @@ npm install -g expo-cli
  npm install react-native-screens
  npm install react-native-reanimated
  npm install expo
-expo start
+
+npx expo start
 
 Instrucciones Dispositivo o Emulador
 En un Dispositivo Físico: Escanea el código QR con la aplicación Expo Go. En un Emulador: Selecciona "Run on Android device/emulator" o "Run on iOS simulator" desde el Dashboard de Expo.
